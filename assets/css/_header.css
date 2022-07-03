@@ -1,0 +1,176 @@
+
+
+
+.links {
+    display:flex;
+    flex-direction: row;
+    width: 16%;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+    font-family: "Raleway", sans-serif;
+    margin-right: 30px;
+    margin-left: 10;
+
+  }
+  
+  .links a {
+    color: #00FEC7;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    
+  }
+  
+  
+  .links a::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    width: 0;
+    height: 2px;
+    left: 0;
+    background-color: #00ffc8;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .links a::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    right: 0;
+    background-color: #00ffc8;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  
+  .links a:hover::after {
+    width: 100%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .links a:hover::before {
+    width: 100%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  
+  .links a #signout {
+      color: #00ffc8;
+      font-size: 18px;
+      text-transform: uppercase;
+      border: 2px solid #00ffc8;
+      padding: 8px 12px;
+      border-radius: 7px;
+      position: relative;
+    }
+    
+    .links a #signout:hover {
+      color: black;
+    }
+    
+    .links a #signout::after {
+      content: "";
+      height: 100%;
+      left: 0;
+      position: absolute;
+      background-color: #00ffc8;
+      width: 0;
+      top: 0;
+      -webkit-transition: 0.8s;
+      transition: 0.8s;
+      z-index: -1;
+    }
+    
+    .links a #signout::before {
+      content: "";
+      height: 100%;
+      right: 0;
+      position: absolute;
+      background-color: #00ffc8;
+      width: 0;
+      top: 0;
+      -webkit-transition: 0.8s;
+      transition: 0.8s;
+      z-index: -1;
+    }
+    
+    .links a #signout:hover::after {
+      width: 100%;
+      -webkit-transition: 0.8s;
+      transition: 0.8s;
+    }
+    
+    .links a #signout:hover::before {
+      width: 100%;
+      -webkit-transition: 0.8s;
+      transition: 0.8s;
+    }
+
+
+ 
+ 
+ #signout {
+    color: #00ffc8;
+    margin-left: 450px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid #00ffc8;
+    padding: 1px 10px;
+    border-radius: 7px;
+    position: relative;
+  }
+  
+  #signout a:hover {
+    color: black;
+  }
+
+   #signout::after {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    background-color: #00ffc8;
+    width: 0;
+    top: 0;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    z-index: -1;
+  }
+  
+  #signout::before {
+    content: "";
+    height: 100%;
+    right: 0;
+    position: absolute;
+    background-color: #00ffc8;
+    width: 0;
+    top: 0;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    z-index: -1;
+  }
+  
+   #signout:hover::after {
+    width: 100%;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  }
+  
+  #signout:hover::before {
+    width: 100%;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  }
+  
