@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://sam:1234@cluster0.i2kdp.mongodb.net/test');
+mongoose.connect('mongodb+srv://sam:1234@cluster0.i2kdp.mongodb.net/?retryWrites=true&w=majority');
 
 const db = mongoose.connection;
 
