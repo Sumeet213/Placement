@@ -2,7 +2,7 @@
   "name": "placement",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "/index.js",
   "scripts": {
     "start:dev": "nodemon index.js -e ejs,js,css,html,jpg,png,scss",
     "start": "node index.js",
