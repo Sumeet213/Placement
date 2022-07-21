@@ -50,7 +50,7 @@ app.use(session({
     },
     store: MongoStore.create(
         {
-            mongoUrl: 'mongodb://127.0.0.1/codeial_development',
+            mongoUrl: 'mongodb+srv://sam:1234@cluster0.i2kdp.mongodb.net/test',
             autoRemove: 'disabled'
         
         },
