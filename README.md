@@ -35,7 +35,7 @@ also, you need to create a .env file similar to the one shown in env.example.
 ### Start
 
 ```terminal
-$ cd findyours   // go to project folder
+$ cd placement   // go to project folder
 $ npm i       // npm install packages
 $ npm run dev // run it locally
 
