@@ -1,9 +1,9 @@
 ## Project Features
--[Maintain a record of students scores and their interviews]
--[Upcoming interviews ]
--[How many students have applied for the interview]
--[Status of the students ( placed or unplaced)]
--[Download the details into a CSV file]
+- [Maintain a record of students scores and their interviews]
+- [Upcoming interviews ]
+- [How many students have applied for the interview]
+- [Status of the students ( placed or unplaced)]
+- [Download the details into a CSV file]
 
 ## clone or download
 ```terminal
