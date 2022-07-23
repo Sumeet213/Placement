@@ -50,7 +50,7 @@ app.use(session({
     },
     store: MongoStore.create(
         {
-            mongoUrl: 'mongodb+srv://sam:1234@cluster0.i2kdp.mongodb.net/?retryWrites=true&w=majority',
+            mongoUrl: process.env.MONGODB_URI,
             autoRemove: 'disabled'
         
         },
