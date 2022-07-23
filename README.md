@@ -13,13 +13,10 @@ $ npm i
 
 ## project structure
 ```terminal
-LICENSE
-package.json
-server/
+
+Authentication/
    package.json
    .env (to create .env, check [prepare your db])
-client/
-   package.json
 ...
 ```
 
