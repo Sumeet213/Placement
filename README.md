@@ -17,7 +17,6 @@ client/
 ...
 ```
 
-# Usage (run fullstack app on your machine)
 
 ## Prerequisites
 - [MongoDB](https://gist.github.com/nrollr/9f523ae17ecdbb50311980503409aeb3)
@@ -29,15 +28,13 @@ also, you need to create a .env file similar to the one shown in env.example.
 
 
 
-## Server-side usage(PORT: Any)
-
 
 ### Start
 
 ```terminal
 $ cd placement   // go to project folder
 $ npm i       // npm install packages
-$ npm run dev // run it locally
+$ npm run start:dev // run it locally
 
 
 
